@@ -1,0 +1,33 @@
+<!doctype HTML>
+	<html lang="en">	
+<head>
+	<title>Number Guesser</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<!-- HEADER -->
+	<header>
+		<h1><span class="pink">Number </span><span class="white">Guesser</span></h1>
+	</header>
+	<!-- MAIN -->
+	<main>
+		<input type="number" aria-label="number" class="guesser-input" placeholder="Enter your guess">
+	  <div class="wrapper">
+		<input type="number" aria-label="number" class="min-max-inputs min" placeholder="Enter a min">
+		<input type="number" aria-label="number" class="min-max-inputs max" placeholder="Enter a max">
+	  </div>
+
+	  <div class="wrapper">
+		<button class="btn guess-btn" aria-label="guess" disabled="true">Guess</button>
+		<button class="btn clear-btn" aria-label="clear" disabled="true">Clear</button>
+	  </div>
+		<p class="text">Your last guess was</p>
+		<p class="user-guess-number">25</p>
+		<p class="user-feedback"></p>
+		<button class="btn reset-btn" aria-label="reset" disabled="true">Reset</button>
+	</main>
+	<script src="scripts.js"></script>
+</body>
+	</html>
